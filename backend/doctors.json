@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Evelyn Reed",
+    "specialty": "Cardiology",
+    "status": "On Call",
+    "location": "Wing A"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Marcus Thorne",
+    "specialty": "Neurology",
+    "status": "On Call",
+    "location": "ER"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Lena Petrova",
+    "specialty": "Pediatrics",
+    "status": "On Duty",
+    "location": "N/A"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Samuel Chen",
+    "specialty": "Orthopedics",
+    "status": "Available",
+    "location": "Wing B"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Isabella Rossi",
+    "specialty": "Dermatology",
+    "status": "On Call",
+    "location": "Clinic 1"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Julian Croft",
+    "specialty": "General Surgery",
+    "status": "Available",
+    "location": "Wing C"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Clara Oswald",
+    "specialty": "Oncology",
+    "status": "Available",
+    "location": "Wing A"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Ben Carter",
+    "specialty": "Psychiatry",
+    "status": "On Vacation",
+    "location": "N/A"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Olivia Yang",
+    "specialty": "Radiology",
+    "status": "On Call",
+    "location": "Imaging"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Nathan Hale",
+    "specialty": "Gastroenterology",
+    "status": "Available",
+    "location": "Clinic 2"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Sophia Loren",
+    "specialty": "Endocrinology",
+    "status": "Available",
+    "location": "Wing B"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Arthur Pendragon",
+    "specialty": "Urology",
+    "status": "On Call",
+    "location": "ER"
+  },
+  {
+    "id": 13,
+    "name": "Dr. Freya Norse",
+    "specialty": "Rheumatology",
+    "status": "On Vacation",
+    "location": "N/A"
+  },
+  {
+    "id": 14,
+    "name": "Dr. Leo Valdez",
+    "specialty": "Pulmonology",
+    "status": "Available",
+    "location": "Wing C"
+  },
+  {
+    "id": 15,
+    "name": "Dr. Maya Angelou",
+    "specialty": "Nephrology",
+    "status": "On Call",
+    "location": "Dialysis"
+  },
+  {
+    "id": 16,
+    "name": "Dr. Ken Watanabe",
+    "specialty": "Infectious Disease",
+    "status": "Available",
+    "location": "Clinic 3"
+  },
+  {
+    "id": 17,
+    "name": "Dr. Amelia Pond",
+    "specialty": "Hematology",
+    "status": "Available",
+    "location": "Lab"
+  },
+  {
+    "id": 18,
+    "name": "Dr. Rory Williams",
+    "specialty": "Emergency Medicine",
+    "status": "On Call",
+    "location": "ER"
+  },
+  {
+    "id": 19,
+    "name": "Dr. Martha Jones",
+    "specialty": "Family Medicine",
+    "status": "Available",
+    "location": "Clinic 4"
+  },
+  {
+    "id": 20,
+    "name": "Dr. Jack Harkness",
+    "specialty": "Traumatology",
+    "status": "On Call",
+    "location": "Trauma 1"
+  }
+]

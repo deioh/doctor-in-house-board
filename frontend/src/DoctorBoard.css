@@ -1,0 +1,96 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrollbars on the body */
+}
+
+.doctor-board {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.doctor-board__title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  flex-shrink: 0; /* Prevent title from shrinking */
+}
+
+.doctor-board__cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-rows: repeat(4, 1fr);    /* 4 rows */
+  gap: 15px;
+  flex-grow: 1; /* Allow the grid to fill available space */
+  height: 100%;
+  overflow: hidden; /* Prevent scrolling within the grid */
+}
+
+.doctor-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.doctor-card__name {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #005a9e;
+  font-weight: 600;
+}
+
+.doctor-card__specialty,
+.doctor-card__status {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.doctor-card__status .status {
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.doctor-card__status .on-call {
+  background-color: #28a745;
+}
+
+.doctor-card__status .on-duty {
+  background-color: #007bff;
+}
+
+.doctor-card__status .off-duty {
+  background-color: #6c757d;
+}
+
+.doctor-board__loading,
+.doctor-board__error {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 40px;
+  color: #777;
+}

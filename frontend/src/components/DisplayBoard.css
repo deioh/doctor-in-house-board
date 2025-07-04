@@ -1,0 +1,33 @@
+.display-board {
+    padding: 2rem;
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calendar-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.calendar-column h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+    margin: 0;
+    text-align: center;
+}
+
+.calendar-column .cards-container {
+    padding: 1.5rem;
+    border-radius: 0 0 8px 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Color-coded headers */
+.calendar-column.available h2 { background-color: #28a745; } /* Green */
+.calendar-column.on-call h2 { background-color: #fd7e14; } /* Orange */
+.calendar-column.on-vacation h2 { background-color: #0d6efd; } /* Blue */
