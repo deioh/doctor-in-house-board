@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Button, Form, Row, Col } from "react-bootstrap";
+import { Table, Button, Form, Row, Col, Modal } from "react-bootstrap";
 
 const AdminPanel = () => {
   const [doctors, setDoctors] = useState([]);
